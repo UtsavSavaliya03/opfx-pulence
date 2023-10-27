@@ -1,0 +1,106 @@
+.footer-container {
+    .footer-main-text {
+        width: 70%;
+        color: #1E2457;
+        padding-top: 22px;
+    }
+
+    .footer-links-container {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+        .footer-links {
+            text-align: left;
+
+            .title {
+                color: #1E2457;
+                font-size: 16px;
+                font-weight: 700;
+            }
+
+            .link {
+                font-size: 15px;
+                font-weight: 400;
+                color: #3C4565;
+                cursor: pointer;
+            }
+
+            .link:hover {
+                color: #1E2457;
+            }
+        }
+    }
+
+    .contact-info-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+        .bg-light-capsule {
+            background-color: #EEEFF8;
+            display: flex;
+            align-items: center;
+            padding: 8px 16px;
+            border-radius: 20px;
+
+            p {
+                color: #1E2457;
+                font-weight: 500;
+
+                .text-green {
+                    color: #25DB6E;
+                }
+            }
+        }
+
+        .copy-rights-text {
+            font-weight: 500;
+            font-size: 14px;
+            color: #3C456566;
+        }
+    }
+
+    .devider {
+        background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0.66%, #938EFF 51.36%, rgba(255, 255, 255, 0) 100%);
+        height: 2px;
+        width: 100%;
+    }
+
+    .warning-card {
+        text-align: left;
+        background-color: #ECEEFD;
+        border-radius: 4px;
+
+        .title {
+            font-size: 16px;
+            color: #3C4565;
+            font-weight: 700;
+        }
+
+        .description {
+            font-size: 14px;
+            color: #1E2457B2;
+            font-weight: 400;
+        }
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .footer-container {
+        .footer-main-text {
+            width: 100%;
+        }
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    .footer-container {
+
+        .footer-links-container,
+        .contact-info-container {
+            justify-content: space-around;
+        }
+    }
+}
