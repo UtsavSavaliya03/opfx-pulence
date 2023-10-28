@@ -47,7 +47,7 @@ export default function Header() {
       <div className='header-main'>
         <div className='side-padding header-wrapper py-3'>
           <div className='d-flex justify-content-between'>
-            <img className='' src='Assets/Logo/Logo.svg' alt='icon' />
+            <img className='cursor-pointer' src='Assets/Logo/Logo.svg' alt='icon' />
             <div className='bar-icon' onClick={() => setOpenSidebar(!openSidebar)}>
               ≡
             </div>

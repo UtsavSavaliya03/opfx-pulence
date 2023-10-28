@@ -33,7 +33,7 @@ export default function ContactForm() {
                             </div>
                             <div>
                                 <p className='title m-0'>Follow us on</p>
-                                <div className='mt-3'>
+                                <div className='mt-3 text-left'>
                                     <img height={24} width={24} className='mr-4 cursor-pointer' src='Assets/Images/facebook-blue.svg' alt='icon' />
                                     <img height={20} width={20} className='mx-4 cursor-pointer' src='Assets/Images/twitter-blue.svg' alt='icon' />
                                     <img height={24} width={24} className='mx-4 cursor-pointer' src='Assets/Images/linkedin-blue.svg' alt='icon' />
@@ -43,7 +43,7 @@ export default function ContactForm() {
                         </div>
                     </div>
                     <div className='col-md-6 col-lg-5 pl-lg-5 mt-5 mt-md-0'>
-                        <div className='contact-form p-4 ml-lg-5'>
+                        <div className='contact-form py-5 px-4 ml-lg-5'>
                             <div className='availability-badge mb-4'>
                                 <p className='m-0'>Available 24/7</p>
                             </div>

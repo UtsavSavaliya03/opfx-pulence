@@ -8,7 +8,7 @@ export default function Footer() {
       <div className='devider px-5 my-4 w-75 mx-auto'></div>
         <div className='pt-5 mt-5 row'>
           <div className='text-left col-md-5'>
-            <img className='' src='Assets/Logo/Logo.svg' alt='icon' />
+            <img className='cursor-pointer' src='Assets/Logo/Logo.svg' alt='icon' />
             <p className='m-0 footer-main-text'>FXOpulence provides an entirely transparent access to the FOREX Market through powerful trading platform.</p>
             <div className='mt-5 pt-4'>
               <img height={20} width={20} className='mr-4 cursor-pointer' src='Assets/Images/twitter-x-fill.svg' alt='icon' />

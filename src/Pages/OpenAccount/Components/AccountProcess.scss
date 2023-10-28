@@ -1,49 +1,64 @@
-.contact-form-container {
+.process-container {
     background-color: #F6F7FF;
 
-    .contact-title {
-        color: #1E2457;
-        font-size: 60px;
+    .main-title {
+        text-align: left;
+        font-size: 56px;
         font-weight: 700;
         line-height: 70px;
-        width: 70%;
-        text-align: left;
+        color: #1E2457;
+        width: 40%;
     }
 
-    .description {
-        font-size: 20px;
-        font-weight: 500;
-        color: #3C4565;
-        text-align: left;
+    .step-wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
     }
 
-    .help-container {
+    .connection-line {
+        position: absolute;
+        width: 100%;
+        left: 0;
+        top: 50%;
+        border: 1px dashed #4832F5;
+    }
+
+    .process-card {
+        box-shadow: 0px 4px 4px 0px #9C90BB12;
+        background-color: #FFFFFF;
+        width: 270px;
+        text-align: left;
+        z-index: 1;
+        position: relative;
+
+        .step-no {
+            color: #E4E5F0;
+            font-size: 24px;
+            font-weight: 700;
+        }
+
         .title {
-            color: #1E2457;
+            color: #3C4565;
             font-weight: 700;
             font-size: 20px;
-            text-align: left;
         }
 
-        .help-text {
-            font-weight: 500;
-            color: #1E2457;
+        .description {
+            font-weight: 400;
             font-size: 16px;
-        }
-    }
-
-    .location-info {
-        p {
             color: #1E2457;
-            font-size: 16px;
-            font-weight: 700;
-            text-align: left;
         }
 
-        .address {
-            font-size: 14px;
-            font-weight: 500;
-            color: #1E2457;
+        .connection-dot {
+            position: absolute;
+            background-color: #3F2CF399;
+            height: 25px;
+            width: 25px;
+            border-radius: 50%;
+            top: 42%;
+            right: -5%;
         }
     }
 
@@ -92,12 +107,10 @@
 
         .bg-light-capsule {
             background-color: #F6F7FF;
-            padding: 8px 16px;
+            padding: 12px 16px;
             border-radius: 20px;
-            align-items: center !important;
             
             p {
-                align-items: center !important;
                 color: #1E2457;
                 font-weight: 500;
 
@@ -111,9 +124,25 @@
 }
 
 @media only screen and (max-width: 992px) {
-    .contact-form-container {
-        .contact-title {
-            width: 100%;
+    .process-container {
+        .main-title {
+            font-size: 46px;
+            line-height: 60px;
+            width: 90%;
+        }
+
+        .step-wrapper {
+            justify-content: space-around;
+        }
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .process-container {
+
+        .connection-dot,
+        .connection-line {
+            display: none;
         }
     }
 }

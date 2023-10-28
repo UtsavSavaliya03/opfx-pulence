@@ -1,0 +1,43 @@
+.account-container {
+    .main-text {
+        text-align: left;
+        font-size: 60px;
+        font-weight: 700;
+        line-height: 80px;
+        background: -webkit-linear-gradient(270deg, #6145D0 14.15%, #2E2D66 88.15%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        width: 70%;
+    }
+
+    .short-description {
+        color: #3C4565;
+        font-size: 20px;
+        font-weight: 500;
+        text-align: left;
+        width: 40%;
+    }
+
+    .title-blue {
+        text-align: left;
+        border-left: 2px solid #5A3CF9;
+
+        p {
+            padding-left: 20px;
+            font-size: 22px;
+            font-weight: 700;
+            background: -webkit-linear-gradient(270deg, #6B47FD 14.15%, #1915EA 88.15%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .main-text {
+        width: 100% !important;
+    }
+    .short-description {
+        width: 80% !important;
+    }
+}
