@@ -5,8 +5,6 @@ import Login from '../../Pages/Login/Login.js';
 
 export default function Main() {
 
-  console.log(RoutesData)
-
   return (
     <div>
       <Routes>

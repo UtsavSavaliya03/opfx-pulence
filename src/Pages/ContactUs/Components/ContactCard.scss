@@ -1,0 +1,29 @@
+.contact-card-container {
+    border: 1px solid #824FFF1A;
+    box-shadow: 0px 4px 6px 0px #9C90BB14;
+    background-color: white;
+    text-align: left;
+    width: 350px;
+    cursor: pointer;
+
+    .icon-wrapper {
+        border-left: 2px solid #5A3CF9;
+        padding-left: 30px;
+    }
+
+    .contact-info {
+        padding-left: 30px;
+
+        .value {
+            color: #1E2457;
+            font-size: 20px;
+            font-weight: 500;
+        }
+
+        .title {
+            color: #3C4565;
+            font-weight: 400;
+            font-size: 16px;
+        }
+    }
+}

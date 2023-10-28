@@ -1,0 +1,116 @@
+.contact-form-container {
+    background-color: #F6F7FF;
+    text-align: left;
+
+    .contact-title {
+        color: #1E2457;
+        font-size: 60px;
+        font-weight: 700;
+        line-height: 70px;
+        width: 70%;
+    }
+
+    .description {
+        font-size: 20px;
+        font-weight: 500;
+        color: #3C4565;
+    }
+
+    .help-container {
+        .title {
+            color: #1E2457;
+            font-weight: 700;
+            font-size: 20px;
+        }
+
+        .help-text {
+            font-weight: 500;
+            color: #1E2457;
+            font-size: 16px;
+        }
+    }
+
+    .location-info {
+        p {
+            color: #1E2457;
+            font-size: 16px;
+            font-weight: 700;
+        }
+
+        .address {
+            font-size: 14px;
+            font-weight: 500;
+            color: #1E2457;
+        }
+    }
+
+    .contact-form {
+        background-color: white;
+        box-shadow: 0px 4px 6px 0px #9C90BB14;
+
+        .availability-badge {
+            display: flex;
+
+            p {
+                padding: 6px 16px;
+                border-radius: 50px;
+                border: 1px dashed #25DB6E;
+                color: #25DB6E;
+                font-size: 14px;
+                font-weight: 500;
+            }
+        }
+
+        .main-title {
+            color: #1E2457;
+            font-size: 32px;
+            font-weight: 700;
+        }
+
+        .title {
+            color: #3C4565;
+            font-size: 20px;
+            font-weight: 500;
+        }
+
+        .devider {
+            background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0.66%, #938EFF 51.36%, rgba(255, 255, 255, 0) 100%);
+            height: 2px;
+            width: 100%;
+        }
+
+        .link {
+            color: #3C4565;
+            font-weight: 400;
+            font-size: 16px;
+            cursor: pointer;
+            text-align: right;
+        }
+
+        .bg-light-capsule {
+            background-color: #F6F7FF;
+            display: flex;
+            align-items: center;
+            padding: 8px 16px;
+            border-radius: 20px;
+
+            p {
+                color: #1E2457;
+                font-weight: 500;
+
+                .text-blue {
+                    color: #5A3DF9;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .contact-form-container {
+        .contact-title {
+            width: 100%;
+        }
+    }
+}

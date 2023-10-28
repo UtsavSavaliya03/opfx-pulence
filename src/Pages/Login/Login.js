@@ -7,7 +7,7 @@ export default function Login() {
             <div className='side-padding'>
                 <div className='row my-5 py-5'>
                     <div className='col-md-6 col-lg-7'>
-                        <div className=''>
+                        <div>
                             <p className='main-text mb-4'>Trade with First Decentralised Forex Brocker</p>
                             <p className='m-0 description'>In a never-before-seen decentralized deposit & Withdrawal style, FXOpulence offers round-the-clock crypto transfers without any human intervention.</p>
                             <div className='shield-container pt-5 mt-md-5'>

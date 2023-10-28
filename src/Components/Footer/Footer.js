@@ -5,6 +5,7 @@ export default function Footer() {
   return (
     <div className='footer-container'>
       <div className='side-padding'>
+      <div className='devider px-5 my-4 w-75 mx-auto'></div>
         <div className='pt-5 mt-5 row'>
           <div className='text-left col-md-5'>
             <img className='' src='Assets/Logo/Logo.svg' alt='icon' />
