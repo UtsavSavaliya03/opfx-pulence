@@ -54,7 +54,7 @@ export default function AccountProcess() {
               <input className='w-100 mt-3' placeholder='Email' />
             </div>
             <div className='col-md-6 px-0 pl-md-2'>
-              <input className='w-100 mt-3' placeholder='Phone' />
+              <input type='number' className='w-100 mt-3' placeholder='Phone' />
             </div>
           </div>
           <div className='row m-0 p-0'>

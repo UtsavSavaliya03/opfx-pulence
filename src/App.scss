@@ -29,7 +29,20 @@
     padding: 10px 18px 12px;
   }
 
-  input, select, textarea {
+  .btn-white-bg {
+    background-color: white;
+    border: none;
+    color: #524FFF;
+    font-weight: 500;
+    cursor: pointer;
+    outline: none;
+    border-radius: 30px;
+    padding: 10px 18px 12px;
+  }
+
+  input,
+  select,
+  textarea {
     padding: 12px 16px;
     box-shadow: 0px 2px 3px 0px #63597C14;
     border: 1px solid rgba(128, 128, 128, 0.207);
@@ -37,18 +50,33 @@
     outline: none;
   }
 
-  input:focus, select:focus, textarea:focus {
+  input:focus,
+  select:focus,
+  textarea:focus {
     outline: 1px solid #5A3DF9;
+  }
+
+  /* Chrome, Safari, Edge, Opera */
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+  /* Firefox */
+  input[type=number] {
+    -moz-appearance: textfield;
   }
 }
 
 @media only screen and (min-width: 1600px) {
   .App {
     .side-padding {
-      padding: 10px 200px;
+      padding: 10px 300px;
     }
   }
 }
+
 @media only screen and (max-width: 1200px) {
   .App {
     .side-padding {

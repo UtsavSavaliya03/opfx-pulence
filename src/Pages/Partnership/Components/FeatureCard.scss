@@ -1,0 +1,24 @@
+.feature-card-container {
+    background-color: white;
+    text-align: left;
+    height: 646px;
+    width: 530px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+
+    .card-title {
+        font-size: 46px;
+        font-weight: 700;
+        line-height: 60px;
+        background: -webkit-linear-gradient(270deg, #6145D0 14.15%, #2E2D66 88.15%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .card-description {
+        font-weight: 500;
+        font-size: 20px;
+        color: #1E2457;
+    }
+}

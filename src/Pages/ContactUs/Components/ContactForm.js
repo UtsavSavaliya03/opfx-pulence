@@ -50,7 +50,7 @@ export default function ContactForm() {
                             <input className='w-100' placeholder='Full Name' />
                             <div className='row m-0 p-0'>
                                 <div className='col-md-6 px-0 pr-md-2'>
-                                    <input className='w-100 mt-3' placeholder='Email' />
+                                    <input type='email' className='w-100 mt-3' placeholder='Email' />
                                 </div>
                                 <div className='col-md-6 px-0 pl-md-2'>
                                     <input className='w-100 mt-3' placeholder='Phone' />
