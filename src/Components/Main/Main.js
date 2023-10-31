@@ -1,7 +1,7 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import { RoutesData } from './RoutesData.js';
-import Login from '../../Pages/Login/Login.js';
+import { ToastsContainer, ToastsStore, ToastsContainerPosition } from 'react-toasts';
 
 export default function Main() {
 
@@ -14,6 +14,10 @@ export default function Main() {
           ))
         }
       </Routes>
+      <ToastsContainer
+        position={ToastsContainerPosition.TOP_RIGHT}
+        store={ToastsStore}
+      />
     </div>
   )
 }

@@ -1,7 +1,8 @@
 import React from 'react';
-import './ContactForm.scss';
+import './ContactContainer.scss';
+import ContactForm from '../../../Components/Common/ContactForm';
 
-export default function ContactForm() {
+export default function ContactContainer() {
     return (
         <div className='contact-form-container'>
             <div className='side-padding'>
@@ -43,40 +44,7 @@ export default function ContactForm() {
                         </div>
                     </div>
                     <div className='col-md-6 col-lg-5 pl-lg-5 mt-5 mt-md-0'>
-                        <div className='contact-form py-5 px-4 ml-lg-5'>
-                            <div className='availability-badge mb-4'>
-                                <p className='m-0'>Available 24/7</p>
-                            </div>
-                            <input className='w-100' placeholder='Full Name' />
-                            <div className='row m-0 p-0'>
-                                <div className='col-md-6 px-0 pr-md-2'>
-                                    <input type='email' className='w-100 mt-3' placeholder='Email' />
-                                </div>
-                                <div className='col-md-6 px-0 pl-md-2'>
-                                    <input className='w-100 mt-3' placeholder='Phone' />
-                                </div>
-                            </div>
-                            <div className='row m-0 p-0'>
-                                <div className='col-md-6 px-0 pr-md-2'>
-                                    <select className='w-100 mt-3'>
-                                        <option>Country</option>
-                                        <option>India</option>
-                                        <option>America</option>
-                                        <option>Canada</option>
-                                    </select>
-                                </div>
-                                <div className='col-md-6 px-0 pl-md-2'>
-                                    <input className='w-100 mt-3' placeholder='City' />
-                                </div>
-                            </div>
-                            <input className='w-100 mt-3' placeholder='Subject' />
-                            <textarea rows={4} className='w-100 mt-3' placeholder='Your Message' />
-                            <button className='btn-blue-bg py-2 w-100 mt-3'>{`Submit now >`}</button>
-                            <div className='devider px-5 w-75 mx-auto my-4'></div>
-                            <div className='bg-light-capsule'>
-                                <p className='m-0'>We respect your privacy, Read our <span className='text-blue'> privacy policy</span></p>
-                            </div>
-                        </div>
+                        <ContactForm badge='Available 24/7' buttonText='Submit now' />
                     </div>
                 </div>
             </div>

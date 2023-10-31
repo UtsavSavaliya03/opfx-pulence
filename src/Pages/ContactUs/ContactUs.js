@@ -2,7 +2,7 @@ import React from 'react';
 import './ContactUs.scss';
 import ContactCard from './Components/ContactCard';
 import FaqsContainer from './Components/FaqsContainer';
-import ContactForm from './Components/ContactForm';
+import ContactForm from './Components/ContactContainer';
 
 export default function ContactUs() {
 
