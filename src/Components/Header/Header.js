@@ -47,7 +47,7 @@ export default function Header() {
       <div className='header-main'>
         <div className='side-padding header-wrapper py-3'>
           <div className='d-flex justify-content-between'>
-            <img className='cursor-pointer' src='Assets/Logo/Logo.svg' alt='icon' />
+            <img  onClick={() => navigate('/')} className='cursor-pointer' src='Assets/Logo/Logo.svg' alt='icon' />
             <div className='bar-icon' onClick={() => setOpenSidebar(!openSidebar)}>
               ≡
             </div>
@@ -95,7 +95,7 @@ export default function Header() {
             </Navbar>
           </div>
           <div className='login-controls'>
-            <button className='btn-blue mr-3' onClick={() => navigate('/')}>Login</button>
+            <button className='btn-blue mr-3' onClick={() => navigate('/login-signup')}>Login</button>
             <button className='btn-blue-bg' onClick={() => navigate('/openAccount')}>Open Account</button>
           </div>
         </div>

@@ -1,7 +1,7 @@
 export const NavbarData = [
     {
         title: 'Payments',
-        url: '/payments',
+        url: '/',
         activeUrl: ['/payments'],
     },
     {
@@ -10,15 +10,15 @@ export const NavbarData = [
         children: [
             {
                 title: 'Forex',
-                url: '/forex'
+                url: '/'
             },
             {
                 title: 'Metal',
-                url: '/metal'
+                url: '/'
             },
             {
                 title: 'Crypto',
-                url: '/crypto'
+                url: '/'
             },
         ]
     },
@@ -28,11 +28,11 @@ export const NavbarData = [
         children: [
             {
                 title: 'MT 4',
-                url: '/mt4'
+                url: '/'
             },
             {
                 title: 'MT 5',
-                url: '/mt5'
+                url: '/'
             },
         ]
     },
@@ -55,7 +55,7 @@ export const NavbarData = [
             },
             {
                 title: 'Asbout Us',
-                url: '/aboutUs'
+                url: '/'
             },
         ]
     },
