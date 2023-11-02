@@ -95,7 +95,7 @@ export default function Header() {
             </Navbar>
           </div>
           <div className='login-controls'>
-            <button className='btn-blue mr-3' onClick={() => navigate('/login-signup')}>Login</button>
+            <button className='btn-blue mr-3' onClick={() => navigate('/')}>Login</button>
             <button className='btn-blue-bg' onClick={() => navigate('/openAccount')}>Open Account</button>
           </div>
         </div>
