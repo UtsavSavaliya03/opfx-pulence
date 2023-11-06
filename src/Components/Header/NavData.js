@@ -43,11 +43,15 @@ export const NavbarData = [
     },
     {
         title: 'More',
-        activeUrl: ['/contactUs', '/aboutUs', '/openAccount'],
+        activeUrl: ['/contactUs', '/aboutUs', '/openLiveAccount', '/openDemoAccount'],
         children: [
             {
-                title: 'Open Account',
-                url: '/openAccount'
+                title: 'Open Live Account',
+                url: '/openLiveAccount'
+            },
+            {
+                title: 'Open Demo Account',
+                url: '/openDemoAccount'
             },
             {
                 title: 'Contact Us',

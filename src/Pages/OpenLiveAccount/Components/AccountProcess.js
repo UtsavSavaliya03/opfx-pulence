@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import './AccountProcess.scss';
-import ContactForm from '../../../Components/Common/ContactForm';
 import { Formik, Form, Field } from 'formik';
 import * as Yup from 'yup';
 import ApiClient from '../../../Services/ApiClient.js';
@@ -217,7 +216,7 @@ export default function AccountProcess() {
                   </div>
                 </div>
                 <button disabled={isLoading} type='submit' className='btn-blue-bg py-2 w-100 mt-3 d-flex justify-content-center align-items-center'>
-                  {`Create Account >`}
+                  {`Create Live Account >`}
                   {isLoading && <div className='loader ml-4'></div>}
                 </button>
               </Form>

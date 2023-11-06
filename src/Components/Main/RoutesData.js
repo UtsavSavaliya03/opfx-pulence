@@ -1,7 +1,8 @@
 import Login from '../../Pages/Login/Login.js';
 import Partnership from '../../Pages/Partnership/Partnership.js';
 import ContactUs from '../../Pages/ContactUs/ContactUs.js';
-import OpenAccount from '../../Pages/OpenAccount/OpenAccount.js';
+import OpenLiveAccount from '../../Pages/OpenLiveAccount/OpenLiveAccount.js';
+import OpenDemoAccount from '../../Pages/OpenDemoAccount/OpenDemoAccount.js';
 
 export const RoutesData = [
     {
@@ -17,7 +18,11 @@ export const RoutesData = [
         element: ContactUs,
     },
     {
-        path: "/openAccount",
-        element: OpenAccount,
+        path: "/openLiveAccount",
+        element: OpenLiveAccount,
+    },
+    {
+        path: "/openDemoAccount",
+        element: OpenDemoAccount,
     },
 ]
